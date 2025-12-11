@@ -2,9 +2,14 @@
   "name": "warehouse-backend",
   "version": "1.0.0",
   "description": "Backend for warehouse app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "pg": "^8.11.3"
+  }
 }
